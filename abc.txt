@@ -1,6 +1,0 @@
-echo "# Test" >> README.md
-git init
-git add README.md
-git commit -am "create file index.html"
-git remote add origin https://github.com/Khang2411/Test.git
-git push origin master

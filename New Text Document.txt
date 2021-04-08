@@ -1,0 +1,6 @@
+
+git init
+git add .
+git commit -m "create file index.html"
+git remote add origin https://github.com/Khang2411/Test.git
+git push -u origin master

@@ -1,0 +1,364 @@
+main{
+  margin-left:120px !important;
+  margin-right:120px !important;
+}
+.area_price strong{
+  display: inline-block;
+  overflow: hidden;
+  font-size: 20px;
+  color: #bf081f !important;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: relative;
+}
+@media (max-width: 775px){
+  body{
+    margin: 0 !important;
+  }
+
+  .product{
+    width: 100% !important;
+    align-content: space-around !important;
+  }
+  .product img{
+    display: block;
+    margin-left: auto; margin-right: auto;
+  }
+  .productprice{
+   margin: initial !important;
+   width: 100% !important;
+   margin-bottom: 10px !important;
+  }
+ 
+  .attent{
+    margin: initial !important;
+    width: 100% !important;
+  }
+  .wrap-comment{
+
+    width: 100% !important;
+    position: relative;
+    overflow: hidden;
+   
+}
+.introduce{
+  width: 100% !important;
+}
+.specifications{
+  width: 100% !important;
+}
+/*end media */
+}
+/* bình luận */
+.wrap-comment{
+
+    width: 65%;
+    position: relative;
+    overflow: hidden;
+   
+}
+.textarea-comment{
+    clear: both;
+    width: 100%;
+    background: #fff;
+    min-height: 100px !important;
+
+}
+.send-comment{
+  float: right;
+  padding: 10px;
+}
+.a-sendcmt{
+    padding: 5px 25px;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #288ad6;
+    border-radius: 4px;
+    background: #288ad6;
+   
+}
+.a-sendimg{
+    padding: 5px 10px;
+    font-size: 14px;
+  
+}
+
+.wrap-comment .body-coment{
+  clear: both;
+  display: block;
+  position: relative;
+   border-bottom: 1px solid grey;
+   font-size: 14px;
+   color: black;
+   overflow: hidden;
+   margin-bottom: 15px;
+}
+
+/* end bình luận*/
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color:#232f3e;
+
+}
+.form-inline{
+    width: 100%;
+    align-items: center;
+    height: 100px;
+  }
+  .form-control{
+    width: 35% !important;    
+    margin-left: 50px;
+
+  }
+  .modal_comment .form-control{
+    width: 80% !important;
+  }
+.bg-light {
+  margin-bottom: 0;
+  background-color: #232f3e;
+  padding: 10px;
+  }
+
+.clr {
+    clear: both;
+}
+  img{
+    max-width: 100%;
+  }
+
+
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+    background-color: #F5F5F5;
+
+}
+/*navigar bar megadropdown
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+   margin-bottom:1rem;
+}
+.bg-primary{
+  background-color: white !important;
+}
+.nav-link {
+    color:initial !important; 
+}
+.navbar-toggler{
+  background-color: #232f3e; 
+}
+.nav-item{
+margin-left: 70px !important;
+}
+.navbar-dark .navbar-brand{
+  color: black !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:black;
+}
+.navbar .dropdown-menu {
+  border:none;
+  background-color:#0060c8!important;
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+.navbar {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+.navbar .nav-item {
+  padding:.5rem .5rem;
+  margin:0 .25rem;
+}
+
+/* makes the dropdown full width  */
+.navbar .dropdown {position:static;}
+
+.navbar .dropdown-menu {
+  width:100%;
+  left:0;
+  right:0;
+/*  height of nav-item  */
+  top:45px;
+}
+  
+  /* shows the dropdown menu on hover */
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display:block!important;
+}
+  
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+  }
+
+}
+ /*end navi bar*/
+
+.container{
+  width:100%;
+  padding: 0;
+}
+
+body{
+	background-color: white !important;
+
+
+}
+.bg-light{
+	background-color:#FFB6C1 !important;
+}
+.text-center{
+	background-color: #FFB6C1 !important;
+    padding: 0 !important;
+}
+
+
+.detail{
+	display: flex;
+	flex-flow: row wrap;
+}
+.product{   
+    width: 30%;
+    position: relative;
+   
+}
+.versionitem{
+    position: relative;
+    width: 30%;
+    border-radius: 3px;
+    border: 1px solid green;
+    text-align: center;
+    margin: 9px 5px;
+    display: inline-block;
+    
+}
+.active i.check{
+    background: url(https://didongviet.vn/statics/images/product/icon-checked.png?184);
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.productprice{
+	  border: 2px solid #FFB6C1;
+    position: relative;
+    width: 30%;
+    margin-top: 65px;
+    margin-left: 20px;
+
+}
+.buy_now {
+    display: block;
+    overflow: hidden;
+    padding: 7px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;  
+    background: -webkit-linear-gradient(top,#f59000,#fd6e1d);
+    cursor: pointer;
+   }
+.buy_repay {
+    line-height: normal;
+    display: block;
+    padding: 7px 0;
+    padding-top: 7px;
+    padding-right: 0px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+    text-align: center;
+    margin: 10px 0 0;
+    background: #288ad6;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 47.5%;
+    float: left;
+    margin-left: 5px;
+    
+
+}
+
+	
+.attent{
+
+  margin-top: 65px;
+  margin-left: 20px;
+	border: 2px solid #FFB6C1;
+	width: 25%;
+	height: 20%;
+}
+
+
+.introduce{
+    width: 65%;
+    float:left;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0;
+}
+.introduce p{
+   font-size: 14px;
+}
+.introduce img{
+	display: block;
+    margin: auto;
+   }
+.specifications{
+    width: 35%;
+    overflow: visible;
+    margin: 20px 0;
+    float: right;
+}
+
+.parameter{
+	display: block;
+    overflow: hidden;
+    background: #fff;
+    padding-top: 10px;
+}
+
+.parameter li {
+    display: table;
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding: 5px 0;
+}
+.parameter li span {
+    display: table-cell;
+    width: 40%;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+.parameter li div {
+    display: table-cell;
+    padding: 6px 5px;
+    font-size: 14px !important;
+    color: #333;
+}
+/*footer */
+.list-unstyled li a{
+    display: block;
+    color: #288ad6;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-left: 0;
+
+}
+
+
+/*end footer */

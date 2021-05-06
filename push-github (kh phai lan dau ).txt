@@ -1,4 +1,4 @@
-
 git add .
 git commit -m "second"
+git remote add origin https://github.com/Khang2411/CaulenhGit.git
 git push -u origin master

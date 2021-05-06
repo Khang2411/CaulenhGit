@@ -2,4 +2,4 @@ git init
 git add .
 git remote add origin https://github.com/Khang2411/CaulenhGit.git
 git fetch --all
-git reset --hard origin/master ( với master là nhánh trên github )
+git reset --hard origin/master //( với master là nhánh trên github )

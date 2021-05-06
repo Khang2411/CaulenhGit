@@ -1,4 +1,5 @@
 git init
 git add .
 git remote add origin https://github.com/Khang2411/CaulenhGit.git
-git pull -f origin master
+git fetch --all
+git reset --hard origin/master

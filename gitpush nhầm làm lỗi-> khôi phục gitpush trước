@@ -1,0 +1,12 @@
+# work on local master
+git checkout master
+
+# reset to the previous state of origin/master, as recorded by reflog
+git reset --hard origin/master@{1}
+
+# at this point verify that this is indeed the desired commit.
+# (if necessary, use git reflog to find the right one, and
+# git reset --hard to that one)
+
+# finally, push the master branch (and only the master branch) to the server
+git push -f origin master
